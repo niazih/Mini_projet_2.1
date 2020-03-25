@@ -1,7 +1,8 @@
 # Mini_projet_2.1
 mini_projet version 2
 
-sudo apt-get install npm
+sudo apt-get update \n
+sudo apt-get install nodejs npm
 npm init
 npm install mysql
 npm install express
