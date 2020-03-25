@@ -1,0 +1,48 @@
+{% extends 'layout.html' %}
+
+{% block title %}Accueil{% endblock %}
+{% block breadcrumb %}Accueil{% endblock %}
+{% block styles %}
+<link rel="stylesheet" href="css/bootstrap-themes/cable/index.min.css">
+{% endblock %}
+
+
+{% block header %}
+<header class="masthead">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-12 text-center">
+          <h1 class="font-weight-light text-light">Confiseries</h1>
+          <p class="lead text-light">A great starter layout for a landing page</p>
+        </div>
+      </div>
+    </div>
+</header>   
+{% endblock %}
+
+
+
+{% block content %}
+<div>Ma belle page d'accueil</div>
+
+<div class="row text-center text-lg-left">
+
+    {% for row in rows %}
+    <div class="col-lg-3 col-md-4 col-6">
+        <div class="card h-100">
+            <a href="item?id={{row.id}}"><img class="card-img-top" src='image/{{ row.image}}' alt=""></a>
+            <div class="card-body">
+                <h4 class="card-title">
+                    <a href="item?id={{row.id}}">{{ row.name}}</a>
+                </h4>
+                <h5>{{ row.price}} &euro;</h5>
+                <p class="card-text">{{ row.description.substring(0,100)}} </p>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+{% endblock %}
+
+
