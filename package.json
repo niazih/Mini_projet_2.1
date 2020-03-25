@@ -1,0 +1,25 @@
+{
+  "name": "mini_projet_2.1",
+  "version": "1.0.0",
+  "description": "mini_projet",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon ./app.js"
+  },
+  "author": "Bilal",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "bootstrap-themes": "^1.0.2",
+    "express": "^4.17.1",
+    "jquery": "^3.4.1",
+    "nodemon": "^1.19.4",
+    "nunjucks": "^3.2.1",
+    "popper.js": "^1.16.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
