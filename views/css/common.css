@@ -1,0 +1,24 @@
+
+#common-breadcrumb {
+    text-indent: 10px;
+}
+
+.masthead {
+    height: 60vh; /*height: 100vh;*/
+    min-height: 7vh;/*min-height: 500px;*/
+    background-image: url('../image/header.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.bottom-nav{
+    position: absolute;
+    bottom: 0;
+}
+
+.top-nav{
+    position: fixed;
+    top: 0;
+}
