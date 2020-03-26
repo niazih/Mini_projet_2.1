@@ -1,0 +1,42 @@
+nav {
+	margin: 0px 0px 50px 50px;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 0px 10px;
+}
+nav ul li a {
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+
+
+nav ul li a:link, nav ul li a:visited {
+	text-decoration: none;
+	font-weight: bold;
+	transition: all 0.5s ease
+}
+
+nav ul li a:link, nav ul li a:visited {
+	display: block;
+	padding: 10px 20px;
+	text-decoration: none;
+	transition: all 0.5s ease
+}
+
+nav ul li a:hover {
+	color: #d09537;
+}
+
+nav ul li a:link, nav ul li a:visited { 
+	color: #d09537; 
+}
+
+nav ul li a:link, nav ul li a:visited {
+	background-color: black;
+	color: white;
+}
+nav ul li a:hover {
+	background-color: #d09537;
+}
